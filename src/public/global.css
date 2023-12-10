@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("/static/JetBrainsMono.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("/static/Inter.ttf");
+}
+
+:root {
+    --panel-colour: rgb(16, 16, 22);
+    --secondary-panel-colour: rgb(28, 28, 39);
+
+    --button-colour: rgb(219, 225, 232);
+    --wintrcat-blue: #47acff;
+
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: var(--secondary-panel-colour);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255, 0.75);
+}
+
+@keyframes fade-downwards {
+    0% {
+        transform: translateY(-5px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-upwards {
+    0% {
+        transform: translateY(5px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

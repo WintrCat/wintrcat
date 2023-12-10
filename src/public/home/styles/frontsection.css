@@ -1,0 +1,48 @@
+.front-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 70vh;
+}
+
+/* HOT CHOCOLATE ICON */
+.hot-chocolate {
+    animation: fade-downwards 0.5s ease-out;
+}
+
+/* WELCOME MESSAGE */
+.welcome-message {
+    margin: 10px 0;
+    text-wrap: nowrap;
+
+    font-family: "Inter";
+    font-size: 6rem;
+    color: white;
+    text-shadow: 0px 0px 30px rgb(255, 255, 255, 0.2);
+}
+
+/* SOCIAL BUTTONS UNDER WELCOME MESSAGE */
+.socials-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social {
+    padding: 8px;
+
+    border: 1px solid var(--secondary-panel-colour);
+    border-radius: 10px;
+    background-color: var(--panel-colour);
+
+    cursor: pointer;
+
+    transition-duration: 0.5s;
+}
+
+.social:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255, 0.1);
+}

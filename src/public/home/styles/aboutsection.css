@@ -1,0 +1,65 @@
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 30px 30px 100px 30px;
+    margin-top: calc(100vh - (70vh + 70px));
+
+    background-color: var(--panel-colour);
+    font-family: "Inter";
+    color: white;
+}
+
+/* TITLE */
+.about-section h1 {
+    margin: 0;
+    text-align: center;
+
+    font-size: 2.5rem;
+}
+
+/* PROFILE IMAGE, STATS AND DETAILS CONTAINER */
+.details-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+    margin-top: 60px;
+    width: 80vw;
+}
+
+/* PROFILE IMAGE */
+.profile-image {
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+/* LANGUAGE ICONS BELOW PROFILE IMAGE */
+.languages-container {
+    text-align: center;
+}
+
+.languages-container img {
+    transition-duration: 0.5s;
+    margin: 0 4px;
+}
+
+.languages-container img:hover {
+    transform: translateY(-2px);
+}
+
+/* STATISTICS */
+.statistic {
+    font-size: 2rem;
+}
+
+.statistic-name {
+    color: #555555;
+}
+
+/* DETAILS */
+.details {
+    margin-top: 15px;
+    width: 40ch;
+}

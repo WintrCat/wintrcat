@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WintrCat</title>
+
+    <link rel="stylesheet" href="/static/global.css">
+    <link rel="stylesheet" href="/static/home/styles/index.css">
+    <link rel="stylesheet" href="/static/home/styles/navbar.css">
+    <link rel="stylesheet" href="/static/home/styles/frontsection.css">
+    <link rel="stylesheet" href="/static/home/styles/aboutsection.css">
+    <link rel="stylesheet" href="/static/home/styles/stationsection.css">
+</head>
+<body>
+    
+    <div class="nav-bar">
+        <img class="logo" src="/static/twigwhite.png" height="50">
+        <b class="title">WintrCat</b>
+
+        <div class="nav-tabs">
+            <span class="standard-nav-button about-me-button" data-url="#about">👋🏻 About Me</span>
+            <span class="standard-nav-button station-button" data-url="#station">🚅 Station</span>
+            <span class="course-button">📚 Course</span>
+        </div>
+    </div>
+
+    <section class="front-section">
+        <img src="/static/hotchocolate.png" class="hot-chocolate" height="175">
+
+        <h1 class="welcome-message">hi, i'm Wilson.</h1>
+
+        <div class="socials-container">
+            <div class="social" title="My GitHub" data-url="https://github.com/wintrcat">
+                <img src="/static/github.svg" alt="GH" height="30">
+            </div>
+            <div class="social" title="My Instagram" data-url="https://instagram.com/wintrcat">
+                <img src="/static/instagram.svg" alt="IG" height="30" style="transform:scale(1.1)">
+            </div>
+            <div class="social" title="My YouTube Channel" data-url="https://youtube.com/@wintrcat">
+                <img src="/static/youtube.svg" alt="YT" height="30">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h1>A bit about me</h1>
+
+        <div class="details-container">
+            <div>
+                <img class="profile-image" src="/static/pfp.gif" height="250" title="WintrCat">
+
+                <div class="languages-container">
+                    <img src="/static/javascript.png" alt="JS" height="40" title="JavaScript">
+                    <img src="/static/typescript.png" alt="JS" height="40" title="TypeScript">
+                    <img src="/static/python.png" alt="JS" height="40" title="Python">
+                </div>
+            </div>
+
+            <div>
+                <div class="statistic">
+                    <b class="statistic-repositories">Some</b>
+                    <span class="statistic-name">Git repositories</span> 
+                </div>
+    
+                <div class="statistic">
+                    <b class="statistic-code-size">Lots</b>
+                    <span class="statistic-name">of stuff committed</span> 
+                </div>
+
+                <div class="details">
+                    Hello! I'm Wilson. I'm 
+                    <span class="age"></span> 
+                    years old and I like to develop websites, among other
+                    random things... I've been programming using Python for 4 years now, and
+                    JavaScript/TypeScript for 2 of those. Sometimes I enjoy documenting how I get around
+                    to building something through YouTube, and outside of coding I love to play Chess!
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="station" class="station-section">
+        <h1>🧳Let's go somewhere.</h1>
+        <span class="station-clarification-message">(My Projects)</span>
+
+        <div class="projects-container">
+            <div class="project">
+                <img src="/static/puzzles.png" height="250" style="top: -50px; left: -20px">
+    
+                <div class="project-details">
+                    <b class="project-title">Puzzles</b>
+    
+                    <a class="project-link" href="https://puzzles.wintrcat.uk/">https://puzzles.wintrcat.uk/</a>
+    
+                    <span class="project-description">
+                        Attempt to solve a range of Python programming puzzles by guessing
+                        the output of a given program.
+                    </span>
+                </div>
+            </div>
+    
+            <div class="project">
+                <img src="/static/spellcast.png" height="230" style="top: -60px; left: 0">
+    
+                <div class="project-details">
+                    <b class="project-title">Spellcast Solver</b>
+    
+                    <a class="project-link" href="https://github.com/wintrcat/spellcastsolver/">https://github.com/wintrcat/spellcastsolver/</a>
+    
+                    <span class="project-description">
+                        A Python command-line tool that finds the best moves in the Discord
+                        activity "Spellcast"
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="/static/home/scripts/buttons.js"></script>
+    <script src="/static/home/scripts/statistics.js"></script>
+
+</body>
+</html>

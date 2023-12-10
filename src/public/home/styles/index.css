@@ -1,0 +1,7 @@
+body {
+    margin: 0;
+
+    background-image: url("/static/gridbackground.png");
+    background-size: 1080px;
+    background-color: black;
+}

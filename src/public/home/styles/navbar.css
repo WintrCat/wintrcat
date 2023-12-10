@@ -1,0 +1,73 @@
+.nav-bar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 0px 20px;
+    z-index: 1;
+
+    height: 70px;
+
+    font-family: "JetBrains Mono";
+    color: white;
+
+    transition-duration: 0.3s;
+}
+
+.scrolled {
+    background-color: rgb(28, 28, 39, 0.9);
+}
+
+/* LOGO AND TITLE */
+.logo {
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+/* NAVBAR TABS */
+.nav-tabs {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+
+    width: 100%;
+}
+
+.nav-tabs span {
+    flex-shrink: 0;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+/* STANDARD NAV BUTTONS */
+.standard-nav-button {
+    color: var(--button-colour);
+    transition-duration: 0.2s;
+}
+
+.standard-nav-button:hover {
+    transform: scale(1.03);
+    color: white;
+}
+
+/* COURSE BUTTON */
+.course-button {
+    padding: 6px 15px;
+    
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+
+    transition-duration: 0.4s;
+}
+
+.course-button:hover {
+    background-color: var(--wintrcat-blue);
+    box-shadow: 0px 0px 10px var(--wintrcat-blue);
+    color: white;
+}
