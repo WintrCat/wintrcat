@@ -46,3 +46,10 @@
     transform: scale(1.02);
     box-shadow: 0px 0px 20px rgb(255, 255, 255, 0.1);
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 720px) {
+    .welcome-message {
+        font-size: 4.5rem;
+    }
+}

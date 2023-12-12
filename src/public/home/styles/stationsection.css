@@ -70,3 +70,21 @@
     text-align: end;
     width: 40ch;
 }
+
+@media (max-width: 850px) {
+    .project {
+        justify-content: center;
+    }
+
+    .project img {
+        display: none;
+    }
+
+    .project-details {
+        align-items: center;
+    }
+
+    .project-description {
+        text-align: center;
+    }
+}
