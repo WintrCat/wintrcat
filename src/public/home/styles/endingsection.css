@@ -1,0 +1,15 @@
+.ending-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 50px;
+
+    background-color: var(--panel-colour);
+    font-family: "Inter";
+    color: white;
+}
+
+.ending-section img {
+    border-radius: 100%;
+}
