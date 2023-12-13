@@ -4,8 +4,9 @@
     <title>WintrCat</title>
 
     <link rel="stylesheet" href="/static/global.css">
+    <link rel="stylesheet" href="/static/navbar.css">
+
     <link rel="stylesheet" href="/static/home/styles/index.css">
-    <link rel="stylesheet" href="/static/home/styles/navbar.css">
     <link rel="stylesheet" href="/static/home/styles/frontsection.css">
     <link rel="stylesheet" href="/static/home/styles/aboutsection.css">
     <link rel="stylesheet" href="/static/home/styles/stationsection.css">
@@ -22,7 +23,7 @@
         <div class="nav-tabs">
             <span class="standard-nav-button about-me-button" data-url="#about">👋🏻 About Me</span>
             <span class="standard-nav-button station-button" data-url="#station">🚅 Station</span>
-            <span class="course-button">📚 Course</span>
+            <span class="primary-button" data-url="/course">📚 Course</span>
         </div>
     </div>
 
@@ -120,13 +121,13 @@
 
     <section class="ending-section">
         <img src="/static/twigwhite.png" height="40">
-
         <span>wintrcat</span>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
-    <script src="/static/home/scripts/buttons.js"></script>
+    <script src="/static/navbar.js"></script>
+    <script src="/static/home/scripts/socials.js"></script>
     <script src="/static/home/scripts/statistics.js"></script>
 
 </body>

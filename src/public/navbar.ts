@@ -1,10 +1,5 @@
 $(".nav-tabs span").on("click", ({ target }) => {
-    location.href = $(target).attr("data-url") || "#";
-});
-
-$(".social").on("click", ({ target }) => {
-    let url = $(target).attr("data-url") || $(target).parent().attr("data-url");
-    open(url);
+    location.href = $(target).attr("data-url") || "/";
 });
 
 function updateNavbarOpacity() {

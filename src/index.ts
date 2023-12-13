@@ -15,6 +15,10 @@ app.get("/", (req, res) => {
     res.sendFile(path.resolve("src/public/home/index.html"));
 });
 
+app.get("/course", (req, res) => {
+    res.sendFile(path.resolve("src/public/course/index.html"));
+});
+
 app.listen(process.env.PORT, () => {
     console.log("Server running on port " + process.env.PORT);
 });

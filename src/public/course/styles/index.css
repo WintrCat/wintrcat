@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+
+    background-image: url("/static/gridbackground.png");
+    background-size: 1080px;
+    background-color: black;
+}
+
+.development-notice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    height: calc(100vh - 70px);
+
+    font-family: "Inter";
+    color: white;
+}
+
+.development-notice img {
+    padding: 15px;
+    
+    background-color: var(--secondary-panel-colour);
+    border-radius: 10px;
+}
+
+.development-notice span {
+    display: inline-block;
+    width: 40ch;
+}
+
+@media (max-width: 720px) {
+    .development-notice {
+        flex-direction: column;
+    }
+}
