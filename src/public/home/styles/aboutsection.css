@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
 
-    padding: 30px 30px 100px 30px;
+    padding: 30px;
     margin-top: calc(100vh - (70vh + 70px));
 
     background-color: var(--panel-colour);
@@ -27,6 +27,22 @@
 
     margin-top: 60px;
     width: 80vw;
+}
+
+@media (max-width: 850px) {
+    .details-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .statistic {
+        text-align: center;
+    }
+
+    .details {
+        text-align: center;
+    }
 }
 
 /* PROFILE IMAGE */

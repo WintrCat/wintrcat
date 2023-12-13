@@ -36,7 +36,7 @@
 
 .project {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     position: relative;
     padding: 20px;
 
@@ -47,14 +47,16 @@
     background-color: var(--secondary-panel-colour);
 }
 
-.project img {
-    position: absolute;
+.project-icon {
+    font-size: 5rem;
+    transform: translateY(-3px);
 }
 
 .project-details {
     display: flex;
     flex-direction: column;
     align-items: end;
+    text-align: end;
 }
 
 .project-title {
@@ -67,24 +69,20 @@
 
 .project-description {
     margin-top: 10px;
-    text-align: end;
     width: 40ch;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 720px) {
     .project {
         justify-content: center;
     }
 
-    .project img {
+    .project-icon {
         display: none;
     }
 
     .project-details {
         align-items: center;
-    }
-
-    .project-description {
         text-align: center;
     }
 }
