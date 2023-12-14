@@ -3,6 +3,8 @@ import path from "path";
 import dotenv from "dotenv";
 dotenv.config();
 
+import videoRouter from "./routes/video";
+
 const app = express();
 
 app.use("/static",
@@ -10,6 +12,8 @@ app.use("/static",
     express.static("src/media"),
     express.static("dist/public")
 );
+
+app.use(videoRouter);
 
 app.get("/", (req, res) => {
     res.sendFile(path.resolve("src/public/home/index.html"));
