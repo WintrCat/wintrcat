@@ -23,6 +23,14 @@ app.get("/course", (req, res) => {
     res.sendFile(path.resolve("src/public/course/index.html"));
 });
 
+app.get("/login", (req, res) => {
+    res.sendFile(path.resolve("src/public/login/index.html"));
+});
+
+app.get("/dash", (req, res) => {
+    res.sendFile(path.resolve("src/public/dash/index.html"));
+});
+
 app.listen(process.env.PORT, () => {
     console.log("Server running on port " + process.env.PORT);
 });

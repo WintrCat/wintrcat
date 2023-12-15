@@ -1,11 +1,3 @@
-body {
-    margin: 0;
-
-    background-image: url("/static/gridbackground.png");
-    background-size: 1080px;
-    background-color: black;
-}
-
 .development-notice {
     display: flex;
     justify-content: center;
@@ -45,23 +37,8 @@ body {
     }
 }
 
-/* ENDING SECTION */
-.ending-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+/* FOOTER */
+footer {
     position: absolute;
     bottom: 0;
-
-    width: 100%;
-    padding: 20px 0;
-
-    background-color: var(--panel-colour);
-    font-family: "Inter";
-    color: white;
-}
-
-.ending-section img {
-    border-radius: 100%;
 }

@@ -1,0 +1,27 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: calc(100vh - 170px);
+
+    font-family: "Inter";
+    color: white;
+}
+
+/* LOGIN FORM */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 300px;
+    padding: 30px 10px;
+    margin-bottom: 60px;
+
+    background-color: var(--panel-colour);
+}
+
+.login-form h1 {
+    margin-top: 0;
+}

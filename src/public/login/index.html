@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/static/global/navbar.css">
     <link rel="stylesheet" href="/static/global/footer.css">
 
-    <link rel="stylesheet" href="/static/course/styles/index.css">
+    <link rel="stylesheet" href="/static/login/styles/index.css">
 
     <link rel="shortcut icon" href="/static/favicon.ico">
 </head>
@@ -20,29 +20,19 @@
         </div>
 
         <div class="nav-tabs">
-            <span class="standard-nav-button" data-url="/">🏠 Home</span>
+            <span class="standard-nav-button" data-url="/course">🏠 Home</span>
             <span class="primary-button" data-url="/login">🔐 Login</span>
         </div>
     </div>
 
-    <section class="development-notice">
-        <div class="development-notice-icon">🦌</div>
+    <div class="content">
+        <div class="login-form">
+            <h1>📃 Login</h1>
 
-        <div class="development-notice-details">
-            <h1>Under construction...</h1>
-            
-            Learn the basics of Python programming
-            <span class="highlighted">faster</span>
-            with videos along with 
-            <span class="highlighted">minigames</span>,
-            <span class="highlighted">puzzles</span> and
-            <span class="highlighted">quizzes</span>.
-            <p>
-                This is a project I'm working on and it will be
-                ready soon!
-            </p>
+            <div id="g_id_onload" data-client_id="306745966792-bisao0u8d3vs0fdg82fsnhd3cabnmftk.apps.googleusercontent.com" data-callback="onLoginSuccess"></div>
+            <div class="g_id_signin" data-type="standard" data-theme="filled_black"></div>
         </div>
-    </section>
+    </div>
 
     <footer>
         <img src="/static/twigwhite.png" height="40">
@@ -50,8 +40,10 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://accounts.google.com/gsi/client"></script>
 
     <script src="/static/global/navbar.js"></script>
+    <script src="/static/login/scripts/login.js"></script>
 
 </body>
 </html>

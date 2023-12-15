@@ -18,6 +18,13 @@
     scroll-behavior: smooth;
 }
 
+body {
+    margin: 0;
+    background-image: url("/static/gridbackground.png");
+    background-size: 1080px;
+    background-color: black;
+}
+
 body::-webkit-scrollbar {
     width: 10px;
     background-color: var(--secondary-panel-colour);
