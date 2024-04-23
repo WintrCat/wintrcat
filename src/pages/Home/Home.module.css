@@ -1,0 +1,11 @@
+.page {
+    height: 100vh;
+    
+    background-image: url("/public/img/gridbackground.png");
+    background-size: cover;
+}
+
+.topSection {
+    width: 100%;
+    height: calc(100vh - 80px);
+}

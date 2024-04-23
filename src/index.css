@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Atkinson";
+    src: url("/public/fonts/atkinson.ttf");
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("/public/fonts/jetbrains.ttf");
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}

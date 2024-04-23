@@ -1,0 +1,46 @@
+.navigationBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 80px;
+
+    color: white;
+    font-family: "JetBrains Mono";
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    border-radius: 100vw;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.navigationLinks {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navigationLink {
+    color: #e6e6e6;
+    font-size: 1.25rem;
+
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navigationLink:hover {
+    transform: scale(1.02);
+
+    color: white;
+}
