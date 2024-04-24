@@ -1,24 +1,21 @@
 import React from "react";
 
 import NavigationBar from "@components/NavigationBar/NavigationBar";
+import TopSection from "@components/TopSection/TopSection";
 
 import * as styles from "./Home.module.css";
 
 function Home() {
-    return <div className={styles.page}>
-        <NavigationBar/>
-
-        <section className={styles.topSection}>
-            <img className={styles.coffee} src="/img/hotchocolate.png"/>
-
-            <span className={styles.title}>hi, i'm Wilson</span>
-            <span className={styles.subtitle}>Developer, Video Editor, Chess Player.</span>
-        </section>
+    return <>
+        <div className={styles.topSectionContainer}>
+            <NavigationBar/>
+            <TopSection/>
+        </div>
 
         <section>
-            
+
         </section>
-    </div>;
+    </>;
 }
 
 export default Home;
