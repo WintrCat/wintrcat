@@ -12,6 +12,15 @@
     font-family: "JetBrains Mono";
 }
 
+@media (max-width: 720px) {
+    .navigationBar {
+        flex-direction: column;
+        gap: 10px;
+        height: initial;
+        padding-top: 5px;
+    }
+}
+
 .titleContainer {
     display: flex;
     align-items: center;
@@ -28,8 +37,10 @@
 
 .navigationLinks {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .navigationLink {

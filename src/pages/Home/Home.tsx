@@ -9,7 +9,14 @@ function Home() {
         <NavigationBar/>
 
         <section className={styles.topSection}>
-            <img src="/img/hotchocolate.png" alt="" />
+            <img className={styles.coffee} src="/img/hotchocolate.png"/>
+
+            <span className={styles.title}>hi, i'm Wilson</span>
+            <span className={styles.subtitle}>Developer, Video Editor, Chess Player.</span>
+        </section>
+
+        <section>
+            
         </section>
     </div>;
 }

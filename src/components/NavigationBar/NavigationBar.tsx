@@ -12,6 +12,7 @@ function NavigationBar() {
         <div className={styles.navigationLinks}>
             <a className={styles.navigationLink} href="">👋🏻 About Me</a>
             <a className={styles.navigationLink} href="">🚅 Projects</a>
+            <a className={styles.navigationLink} href="">✉️ Contact</a>
         </div>
     </div>;
 }
