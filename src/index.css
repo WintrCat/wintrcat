@@ -8,6 +8,15 @@
     src: url("/public/fonts/jetbrains.ttf");
 }
 
+@font-face {
+    font-family: "Minecraftia";
+    src: url("/public/fonts/minecraftia.ttf");
+}
+
+:root {
+    --primary-colour: rgb(16, 16, 20);
+}
+
 body {
     margin: 0;
     text-align: center;
@@ -15,4 +24,13 @@ body {
 
 a {
     text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(5, 5, 12);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(230, 230, 230);
 }

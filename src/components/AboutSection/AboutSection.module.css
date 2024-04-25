@@ -1,0 +1,13 @@
+.aboutSection {
+    width: 100%;
+    padding: 30px 0;
+
+    background-color: var(--primary-colour);
+
+    color: white;
+}
+
+.title {
+    font-family: "Atkinson";
+    font-size: 3.25rem;
+}

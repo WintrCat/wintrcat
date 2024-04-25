@@ -1,17 +1,17 @@
 .topSection {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 10px;
 
     width: 100%;
-    height: calc(100vh - 80px);
+    height: max(350px, calc(100vh - 80px));
 
     color: white;
 }
 
 .coffee {
-    margin-top: 150px;
     height: 150px;
 }
 
@@ -24,6 +24,8 @@
 }
 
 .subtitle {
+    margin-bottom: 130px;
+
     color: whitesmoke;
     font-family: "Atkinson";
     font-size: 1.5rem;
@@ -37,5 +39,11 @@
 
     .subtitle {
         font-size: 1rem;
+    }
+}
+
+@media (max-height: 550px) {
+    .subtitle {
+        margin-bottom: 50px;
     }
 }

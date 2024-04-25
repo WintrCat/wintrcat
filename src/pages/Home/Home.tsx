@@ -2,6 +2,7 @@ import React from "react";
 
 import NavigationBar from "@components/NavigationBar/NavigationBar";
 import TopSection from "@components/TopSection/TopSection";
+import AboutSection from "@components/AboutSection/AboutSection";
 
 import * as styles from "./Home.module.css";
 
@@ -12,9 +13,7 @@ function Home() {
             <TopSection/>
         </div>
 
-        <section>
-
-        </section>
+        <AboutSection/>
     </>;
 }
 
