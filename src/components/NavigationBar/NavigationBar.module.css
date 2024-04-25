@@ -12,7 +12,7 @@
     font-family: "JetBrains Mono";
 }
 
-@media (max-width: 720px) {
+@media (max-width: 920px) {
     .navigationBar {
         flex-direction: column;
         gap: 10px;
@@ -35,23 +35,64 @@
     font-size: 1.5rem;
 }
 
+/* Entire Right side section of navbar */
 .navigationLinks {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 10px 30px;
     flex-wrap: wrap;
 }
 
-.navigationLink {
+@media (max-width: 730px) {
+    .navigationLinks {
+        flex-direction: column;
+    }
+}
+
+/* Container that holds socials icons */
+.socialsContainer {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.socialIcon {
+    display: flex;
+    align-items: center;
+}
+
+/* Container that holds links to page sections */
+.pageSectionsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 30px;
+    flex-wrap: wrap;
+}
+
+.pageSectionLink {
     color: #e6e6e6;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
 
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.navigationLink:hover {
+.pageSectionLink:hover {
     transform: scale(1.02);
 
     color: white;
+}
+
+/* Separator line between socials and page sections containers */
+.separator {
+    width: 3px;
+    height: 30px;
+    background-color: rgb(36, 36, 36);
+}
+
+@media (max-width: 730px) {
+    .separator {
+        display: none;
+    }
 }
