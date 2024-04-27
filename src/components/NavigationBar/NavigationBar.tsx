@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 
 import * as styles from "./NavigationBar.module.css";
 
@@ -11,14 +11,27 @@ function NavigationBar() {
 
         <div className={styles.navigationLinks}>
             <div className={styles.socialsContainer}>
-                <a className={styles.socialIcon} href="https://github.com/wintrcat">
-                    <img src="/img/github.svg" alt="GitHub" height="25" />
-                </a>
-                <a className={styles.socialIcon} href="https://youtube.com/@wintrcat">
+                <a 
+                    className={styles.socialIcon} 
+                    href="https://youtube.com/@wintrcat"
+                    title="YouTube Channel"
+                >
                     <img src="/img/youtube.svg" alt="YouTube" height="25" />
                 </a>
-                <a className={styles.socialIcon} href="https://instagram.com/@wintrcat">
-                    <img src="/img/instagram.svg" alt="Instagram" height="25" />
+                <a 
+                    className={styles.socialIcon} 
+                    style={{filter:"invert()"}} 
+                    href="https://ko-fi.com/wintrcat"
+                    title="Donate to me ❤️"
+                >
+                    <img src="/img/kofi.svg" alt="Donate to me" height="27" />
+                </a>
+                <a 
+                    className={styles.socialIcon} 
+                    href="https://github.com/wintrcat"
+                    title="My GitHub"
+                >
+                    <img src="/img/github.svg" alt="GitHub" height="25" />
                 </a>
             </div>
 

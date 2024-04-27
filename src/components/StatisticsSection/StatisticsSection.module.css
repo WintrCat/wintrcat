@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    width: 900px;
+}
+
+.videoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.video {
+    width: 100%;
+    height: 250px;
+
+    border: none;
+}
+
+@media (max-width: 950px) {
+    .container {
+        flex-direction: column;
+        gap: 30px;
+        width: 80%;
+    }
+}
+
+.statisticsContainer {
+    width: 50%;
+
+    font-family: "Atkinson";
+}
+
+.statisticValue {
+    font-size: 2.5rem;
+}
+
+.statisticName {
+    color: rgba(255, 255, 255, 0.5);
+    font-style: italic;
+    font-size: 1.5rem;
+}

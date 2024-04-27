@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    gap: 30px;
+    width: 900px;
+}
+
+.image {
+    width: min(300px, 80vw);
+
+    border-radius: 20px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+
+    font-family: "Atkinson";
+    font-size: 1.5rem;
+}
+
+.technologies {
+    display: flex;
+    gap: 10px;
+}
+
+.technologies img {
+    transition-duration: 0.5s;
+}
+
+.technologies img:hover {
+    transform: translateY(-2px);
+}
+
+@media (max-width: 950px) {
+    .container {
+        flex-direction: column;
+        gap: 30px;
+        width: 80%;
+    }
+
+    .description {
+        align-items: center;
+        text-align: center;
+    }
+}
