@@ -1,7 +1,7 @@
 .container {
     display: flex;
     gap: 30px;
-    width: 900px;
+    width: min(85%, 900px);
 }
 
 .image {
@@ -43,5 +43,11 @@
     .description {
         align-items: center;
         text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .description {
+        font-size: 1.25rem;
     }
 }

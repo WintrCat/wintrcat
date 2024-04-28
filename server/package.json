@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@googleapis/youtube": "^15.0.0",
     "dotenv": "^16.4.5",
     "express": "^4.19.2"
   },

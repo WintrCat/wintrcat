@@ -3,10 +3,14 @@ import path from "path";
 import dotenv from "dotenv";
 dotenv.config();
 
+import statisticsRouter from "./api/statistics";
+
 const app = express();
 
 app.use("/", express.static("../client/public"));
 app.use("/js", express.static("../client/dist"));
+
+app.use("/", statisticsRouter);
 
 app.get("/*", async (req, res) => {
     res.sendFile(path.resolve("../client/public/index.html"));
