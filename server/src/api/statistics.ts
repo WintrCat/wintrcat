@@ -1,11 +1,11 @@
 import { Router } from "express";
-import { getLatestVideo } from "../lib/statistics";
+import { getStatistics } from "../lib/statistics";
 
 const router = Router();
 
-router.get("/api/statistics/latest", async (req, res) => {
+router.get("/api/statistics", async (req, res) => {
 
-    console.log(await getLatestVideo());
+    res.send(await getStatistics());
 
 });
 

@@ -1,11 +1,15 @@
 import express from "express";
 import path from "path";
 import dotenv from "dotenv";
-dotenv.config();
+dotenv.config({ path: "../.env" });
+
+import { createStatisticsUpdater } from "./lib/statistics";
 
 import statisticsRouter from "./api/statistics";
 
 const app = express();
+
+createStatisticsUpdater();
 
 app.use("/", express.static("../client/public"));
 app.use("/js", express.static("../client/dist"));

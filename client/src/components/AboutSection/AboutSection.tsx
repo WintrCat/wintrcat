@@ -55,6 +55,12 @@ function AboutSection() {
                         height="40"
                         title="TypeScript"
                     />
+                    <img 
+                        src="/img/html.png" 
+                        alt="HTML" 
+                        height="40"
+                        title="HTML"
+                    />
                 </div>
             </div>
         </div>
