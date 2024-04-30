@@ -1,4 +1,4 @@
-.projectsSection {
+.contactSection {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,23 +13,26 @@
     width: min(650px, 80%);
     padding: 0 15px;
 
-    background-color: var(--blurple);
-    border-radius: 10px;
     color: white;
     font-family: "Atkinson";
     font-size: 3.25rem;
+    text-decoration: underline;
+    text-decoration-color: var(--blurple);
+    text-decoration-thickness: 7px;
 }
 
-.projectsContainer {
+.contactContainer {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-direction: column;
+    align-items: center;
     width: min(1100px, 85%);
+
+    color: white;
+    font-family: "Atkinson";
+    font-size: 1.5rem;
 }
 
-@media (max-width: 520px) {
-    .title {
-        font-size: 2.5rem;
-    }
+.contactLink {
+    color: white;
+    text-decoration: underline;
 }

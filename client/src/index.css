@@ -19,6 +19,7 @@
 
 :root {
     --primary-colour: rgb(16, 16, 20);
+    --blurple: rgb(68, 112, 255);
 }
 
 body {
