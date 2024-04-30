@@ -38,7 +38,7 @@ function NavigationBar() {
             <div className={styles.pageSectionsContainer}>
                 <a className={styles.pageSectionLink} href="#aboutSection">👋🏻 About Me</a>
                 <a className={styles.pageSectionLink} href="#projectsSection">🚅 Projects</a>
-                <a className={styles.pageSectionLink} href="">✉️ Contact</a>
+                <a className={styles.pageSectionLink} href="#contactSection">✉️ Contact</a>
             </div>
         </div>
     </div>;
