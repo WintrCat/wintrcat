@@ -9,7 +9,7 @@ function ProjectsSection() {
 
         <div className={styles.projectsContainer}>
             <Project
-                background="/img/board.png"
+                background="/img/gridbackground.png"
                 emoji="♟️"
                 title="Game Report"
                 href="https://chess.wintrcat.uk/"

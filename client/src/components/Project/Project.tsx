@@ -5,7 +5,7 @@ import * as styles from "./Project.module.css";
 
 function Project({ background, emoji, title, href }: ProjectProps) {
     function handleClick() {
-        location.href = href;
+        open(href);
     }
 
     return <div 

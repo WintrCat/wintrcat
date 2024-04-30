@@ -3,8 +3,9 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    width: 49%;
+    min-width: min(85%, 540px);
     padding: 0 20px 0 10px;
-    min-width: 500px;
     height: 150px;
     box-sizing: border-box;
 
@@ -31,19 +32,21 @@
 
 .title {
     color: white;
-    font-family: "Atkinson";
+    font-family: "JetBrains Mono";
     font-size: 3rem;
-    -webkit-text-stroke: 2px black;
-    text-shadow: 0 0 5px black;
-    white-space: nowrap;
+    text-shadow:
+        -2px -2px 0 black,
+        0 -2px 0 black,
+        2px -2px 0 black,
+        2px 0 0 black,
+        2px 2px 0 black,
+        0 2px 0 black,
+        -2px 2px 0 black,
+        -2px 0 0 black,
+        0 0 5px black;
 }
 
 @media (max-width: 600px) {
-    .project {
-        width: 100%;
-        min-width: initial;
-    }
-
     .emoji {
         font-size: 3.3rem;
     }
@@ -53,9 +56,9 @@
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
     .emoji {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .title {
