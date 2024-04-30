@@ -1,0 +1,34 @@
+.topSectionContainer {
+    height: 100vh;
+
+    background-image: url("/public/img/gridbackground.png");
+    background-size: cover;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(80vh - 80px);
+
+    color: white;
+    font-family: "Atkinson";
+}
+
+.errorTitle {
+    margin: 0;
+
+    font-size: 5rem;
+}
+
+.errorMessage {
+    font-size: 2rem;
+}
+
+.returnLink {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: underline;
+}
