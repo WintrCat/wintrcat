@@ -14,8 +14,7 @@
 .titleContainer {
     display: flex;
     justify-content: center;
-    column-gap: 15px;
-    row-gap: -5px;
+    gap: 15px;
     flex-wrap: wrap;
     margin: 0 30px;
 

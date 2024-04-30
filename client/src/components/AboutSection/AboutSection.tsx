@@ -16,7 +16,7 @@ function AboutSection() {
         setAge(elapsedYears);
     }, []);
 
-    return <section className={styles.aboutSection}>
+    return <section className={styles.aboutSection} id="aboutSection">
         <div className={styles.titleContainer}>
             <span>A bit about</span>
             <span className={styles.titleMe}>me</span>

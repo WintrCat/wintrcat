@@ -1,4 +1,5 @@
 import React from "react";
+import SocialLink from "@components/SocialLink/SocialLink";
 
 import * as styles from "./NavigationBar.module.css";
 
@@ -11,35 +12,32 @@ function NavigationBar() {
 
         <div className={styles.navigationLinks}>
             <div className={styles.socialsContainer}>
-                <a 
-                    className={styles.socialIcon} 
-                    href="https://youtube.com/@wintrcat"
+                <SocialLink
                     title="YouTube Channel"
-                >
-                    <img src="/img/youtube.svg" alt="YouTube" height="25" />
-                </a>
-                <a 
-                    className={styles.socialIcon} 
-                    style={{filter:"invert()"}} 
-                    href="https://ko-fi.com/wintrcat"
+                    image="/img/youtube.svg"
+                    imageAltText="YouTube"
+                    href="https://youtube.com/@wintrcat"
+                />
+                <SocialLink
                     title="Donate to me ❤️"
-                >
-                    <img src="/img/kofi.svg" alt="Donate to me" height="27" />
-                </a>
-                <a 
-                    className={styles.socialIcon} 
+                    image="/img/kofi.svg"
+                    imageAltText="Donate to me"
+                    imageHeight="27"
+                    href="https://ko-fi.com/wintrcat"
+                />
+                <SocialLink
+                    title="GitHub"
+                    image="/img/github.svg"
+                    imageAltText="My GitHub"
                     href="https://github.com/wintrcat"
-                    title="My GitHub"
-                >
-                    <img src="/img/github.svg" alt="GitHub" height="25" />
-                </a>
+                />
             </div>
 
             <div className={styles.separator}></div>
 
             <div className={styles.pageSectionsContainer}>
-                <a className={styles.pageSectionLink} href="">👋🏻 About Me</a>
-                <a className={styles.pageSectionLink} href="">🚅 Projects</a>
+                <a className={styles.pageSectionLink} href="#aboutSection">👋🏻 About Me</a>
+                <a className={styles.pageSectionLink} href="#projectsSection">🚅 Projects</a>
                 <a className={styles.pageSectionLink} href="">✉️ Contact</a>
             </div>
         </div>

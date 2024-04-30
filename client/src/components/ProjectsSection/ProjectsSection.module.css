@@ -1,0 +1,35 @@
+.projectsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    padding: 30px 0;
+
+    background-color: var(--primary-colour);
+}
+
+.title {
+    width: min(650px, 80%);
+    padding: 0 15px;
+
+    background-color: rgb(68, 112, 255);
+    border-radius: 10px;
+    color: white;
+    font-family: "Atkinson";
+    font-size: 3.25rem;
+}
+
+.projectsContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: min(1100px, 85%);
+}
+
+@media (max-width: 520px) {
+    .title {
+        font-size: 2.5rem;
+    }
+}
