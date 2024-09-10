@@ -2,7 +2,7 @@
 
 Hello! My name's Wilson, and I'm an 18 year old software developer from the UK!
 <br><br>
-📑 [Portfolio](https://wintrcat.uk/) | 🎥 [YouTube](https://www.youtube.com/@wintrcat) | 📸 [Instagram](https://www.instagram.com/wintrcat/)
+📑 [Portfolio](https://wintrcat.uk/) | 🎥 [YouTube](https://www.youtube.com/@wintrcat) | 🐦 [Twitter](https://x.com/wintrcat_)
 
 ### A bit about me
 - I produce devlog videos for some of the things I build
