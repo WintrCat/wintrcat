@@ -11,4 +11,4 @@ Hello! My name's Wilson, and I'm a 19 year old software developer from the UK!
 
 <br>
 
-![Tools](https://skillicons.dev/icons?i=py,ts,react,pr)
+![Tools](https://skillicons.dev/icons?i=ts,react,py,pr)
