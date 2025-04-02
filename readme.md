@@ -1,6 +1,6 @@
 # <img src="/client/public/img/twigwhite.png" alt="🦌" height="32"> WintrCat
 
-Hello! My name's Wilson, and I'm an 18 year old software developer from the UK!
+Hello! My name's Wilson, and I'm an 19 year old software developer from the UK!
 <br><br>
 📑 [Portfolio](https://wintrcat.uk/) | 🎥 [YouTube](https://www.youtube.com/@wintrcat) | 🐦 [Twitter](https://x.com/wintrcat_)
 
