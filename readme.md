@@ -6,4 +6,4 @@ Hello! My name's Wilson, and I'm a 19 year old software developer, content creat
 
 <br>
 
-![Tools](https://skillicons.dev/icons?i=ts,react,mongodb,redis,py,pr)
+![Tools](https://skillicons.dev/icons?i=ts,react,remix,vite,pnpm,express,mongo,redis,python,premiere&perline=5)
